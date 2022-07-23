@@ -83,6 +83,9 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
+p{
+  color:white
+}
 .tag {
   background-color: #efefef;
   color: black;
@@ -99,8 +102,8 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  background: slategrey;
   text-align: left;
-  background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
