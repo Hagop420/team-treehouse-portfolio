@@ -2,7 +2,13 @@
 * {
   box-sizing: border-box;
 }
+#poop{
+  width:50%;
+  height:60px;
+  background-color: #ddd;
+  box-shadow: inset -9px 12px 3px rgba(0,128,0,.5);
 
+}
 body {
   margin: 0;
   padding: 0;
@@ -152,6 +158,28 @@ footer ul li {
   display: inline-block;
 }
 
+/* PACMAN BORDER RADIUS SICK AF */
+#pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid red;
+    border-left: 60px solid red;
+    border-bottom: 60px solid red;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    animation:pacman 1s infinite ease
+  }
+
+  @keyframes pacman{
+
+    to{
+      border-right: 59.5px solid transparent;
+
+    }
+  }
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -214,4 +242,11 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+@media print{
+
+  p{
+    color: red
+  }
 }

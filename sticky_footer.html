@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Best City Guide</title>
+   <style>
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+   margin:auto;
+  box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+a { 
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+  margin: 0;
+}
+
+/* ---- Layout Containers ---- */
+
+
+
+.fixed{
+   max-width: 1000px;
+margin:15vh auto;
+padding: 0 4rem 4rem;
+display: block;
+}
+
+.fixed h2{
+   padding: 1.2rem;
+}
+
+.main-header {
+	padding: 1.5rem 2rem;
+   
+	background: #3acec2;
+}
+
+.main-footer { 
+	text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+}
+
+.wrap{
+   min-height:calc(100vh - 89.59px);
+   
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.container {
+		width: 70%;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+   .fixed{
+      margin-top: 20vh;
+   }
+
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+   </style>
+</head>
+<body>
+<div class="wrap">
+	<header class="main-header">
+		<div class="container">
+			<h1 class="name"><a href="#">Best City Guide</a></h1>
+			<ul class="main-nav">
+				<li><a href="#">ice cream</a></li>
+				<li><a href="#">donuts</a></li>
+				<li><a href="#">tea</a></li>
+				<li><a href="#">coffee</a></li>
+			</ul>
+		</div>
+   
+	</header>
+   
+<div class="fixed">
+
+		<h2>Welcome!</h2>
+		<p>Everything in this city is worth waiting in line for.</p>
+		<p>Cupcake ipsum dolor sit. Amet chocolate cake gummies jelly beans candy bonbon brownie candy. Gingerbread powder muffin. Icing cotton candy. Croissant icing pie ice cream brownie I love cheesecake cookie. Pastry chocolate pastry jelly croissant.</p>
+		<p>Cake sesame snaps sweet tart candy canes tiramisu I love oat cake chocolate bar. Jelly beans pastry brownie sugar plum pastry bear claw tiramisu tootsie roll. Tootsie roll wafer I love chocolate donuts.
+
+         
+      </p>
+      </div>
+	
+
+</div>
+	<footer class="main-footer">
+		<span>&copy;2015 Residents of The Best City Ever.</span>
+	</footer>
+</body>
+</html>
